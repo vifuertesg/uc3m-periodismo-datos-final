@@ -1,14 +1,6 @@
 ## Examen Periodismo de Datos (19/01/2022)
 ##### Victoria Fuertes González
 
-**100. ¿Quién es Philip Meyer?**
-Philip Meyer (27 de octubre de 1930) comenzó su actividad periodística en The Miami Herald (1958-62). Periodó en el que bautizó al periodismo de datos como "periodismo de precisión", ya que el uso de métodos de análisis de las ciencias sociales unido a software estadístico y ordenadores para construir una historia periodística lo definen como periodismo de precisión (1969). 
-
-**101. ¿Quién fue Florence Nightingale?**
-Florence Nightingale (1820 -1910)fue una enfermera, escritoria y estadística, considerada pionera de la enfermería moderna, creando el primer modelo conceptual de enfermería.
-
-**1. ¿Qué es el periodismo de datos? Aporta tus impresiones sobre el debate.**
-
 **4. ¿Qué medio de comunicación inglés es fundamental en el periodismo y la visualización de datos?**
 El medio británico *The Guardian* es uno de los medios pioneros en el periodismo de datos moderno.   
 
@@ -125,11 +117,24 @@ Si no es la primera vez que hacemos esto, simplemente tendría que ponerme dentr
 El archivo feliz.csv proviene de los datos recopilados por TRESCA para explorar las tendencias de Twitter durante un periodo de la pandemia del COVID19. El nombre responde a que de todo ese bruto de datos recopilados se han seleccionado los mensajes que contuvieran la expresión "feliz". (aunque esto tiene truco, lo recordamos en la siguiente sesión). Se recopila a través de la API de Twitter.
 Conviene señalar que Twitter devuelve por "tendencias" tanto los "hashtags" más usados (es decir, aquellas expresiones que comienzan por una almohadilla #, como por ejemplo #FelizNavidad) como las expresiones que detecta que se usan más aunque no estén marcadas por lxs usuarixs como hashtag (como por ejemplo Feliz Navidad. Hay dos campos de fecha. Un campo del término de la tendencia y otro de la consulta de la tendencia. En cuanto al archivo, se trata de un archivo csv (valores separados por comas).
 
+**63. ¿Cómo harías que OpenRefine interpretara correctamente los tipos de datos?**
+Teniendo delante mi proyecto de OpenRefine, abriría la pestaña de Edit cells. A partir de esta, la de  Common transformations. Y posteriormente elegiría “To date, to number…” según fuese necesario. De esta forma OpenRefine interpretaría los datos de la columna seleccionada como números (to number), como fechas (to date), etc
+
 **64. Qué es una Faceta de texto**
-Las facetas o facets se utilizan para filtrar el contenido, para explorar, ver o encontrar valores erróneos o que se salgan de la norma, mostrar distintas caras de los datos. De esta forma, la faceta de texto nos serviría para darle a los datos de la columna que hayamos seleccionado el valor de texto (OpenRefine interpretaría esos datos como texto)
+Las facetas o facets se utilizan para filtrar el contenido, para explorar, ver o encontrar valores erróneos o que se salgan de la norma, mostrar distintas caras de los datos. La faceta de texto la usamos con columnas cuyos valores sean interpretados por OpenRefine como texto. 
 
 **65. Qué es una faceta numérica**
-La definción es la misma que la anterior. La diferencia es que la faceta numérica nos serviría para darle a los datos de la columna que hayamos seleccionado un valor númerico (OpenRefine interpretaría esos datos como números).
+La definción es la misma que la anterior. La diferencia es que la faceta numérica la usamos con columnas cuyos valores sean interpretados por OpenRefine como números. 
 
 **66. Qué es una faceta temporal**
-La definción es la misma que las anteriores. La diferencia es que la faceta temporal nos serviría para darle a los datos de la columna que hayamos seleccionado un valor "temporal" (OpenRefine interpretaría esos datos como fechas).
+La definción es la misma que las anteriores. La diferencia es que la faceta temporal la usamos con columnas cuyos valores sean interpretados por OpenRefine como fechas. 
+
+**85. ¿Que significa TSV?**
+*Tab Separated Values* o valores separados por tabuladores. Los csv son herederos de los tsv
+
+**100. ¿Quién es Philip Meyer?**
+Philip Meyer (27 de octubre de 1930) comenzó su actividad periodística en The Miami Herald (1958-62). Periodó en el que bautizó al periodismo de datos como "periodismo de precisión", ya que el uso de métodos de análisis de las ciencias sociales unido a software estadístico y ordenadores para construir una historia periodística lo definen como periodismo de precisión (1969). 
+
+**101. ¿Quién fue Florence Nightingale?**
+Florence Nightingale (1820 -1910)fue una enfermera, escritoria y estadística, considerada pionera de la enfermería moderna, creando el primer modelo conceptual de enfermería.
+
