@@ -13,6 +13,8 @@ Florence Nightingale (1820 -1910)fue una enfermera, escritoria y estadística, c
 El medio británico *The Guardian* es uno de los medios pioneros en el periodismo de datos moderno.   
 
 **5. Qué lenguajes informáticos conoces. Razona la respuesta.**
+Los lenguajes informáticos son todos los que entiende o puede entender el ordenador (a través de software).
+Dentro de los lenguajes informáticos están los lenguajes estructurados, como puede ser HTML, que sirve para estructurar documentos. Y también están los lenguajes de programación que sirven para programar acciones que haga el ordenador. Entre estos se encuentran Java, C, C#, Python o R. En la web se utiliza mucho JavaScript, es el que aporta la interactividad. 
 
 **6. Cuál es la diferencia entre Internet y la Web. Razona la respuesta.**
 Internet es una red de redes, es decir,  una red de computadoras de todo el mundo, un sistema de computadoras conectadas a nivel global. Y por otro lado, la web es una colección de páginas que se asienta sobre esta red de computadoras de internet, la web funciona a través de internet y sirve para transmitir datos. 
@@ -22,7 +24,22 @@ Entre el año 2006 y 2008 nació el periodismo de datos moderno y apareció por 
 
 **8. Qué saberes están implicados en periodismo de datos. Razona la respuesta.**
 En el periodismo de datos nos encontramos con tres áreas o saberes implicados, ya que al ser una disciplina nueva, también es una disciplina contenedor. Estos saberes son:
-*El periodismo*, el cual solo puede existir si hay investigación.*Los datos*, que se definen como registros electrónicos que han de ser tratados por ordenador. *La visualización de datos:* desde la Web hasta el papel pasando por la estadística.
+*El periodismo*, el cual solo puede existir si hay investigación.*Los datos*, que se definen como registros electrónicos que han de ser tratados por ordenador. *La visualización de datos:* desde la Web hasta el papel pasando por la estadística. NOTA: Los tres son importantes pero OJO!! que la visualización va más allá de la visualización como producto final. En la etapa de visualizar también realizamos análisis, aplicamos técnicas estadísticas, programas informáticos que hagan que de un gran volumen de datos seamos capaces de sacar hipótesis o conclusiones.
+
+**10. Qué tipos de interfaces de datos hay**
+Hay tres tipos de interfaces aunque hemos visto dos: CLI de Command Line Interfaces o interfaces de línea de comandos, GUI de Graphical User Interfaces o interfaces gráficas de usuario. Y capacitivas, que son las de los móviles. 
+
+**11. Qué tipos de datos hay**
+- Numéricos: Corresponden a un identificador, que en este caso está compuesto por números. Strings: cadena de caracteres o literales al texto norma. 
+- Booleanos, que representan dos valores de una lógica binaria. "Verdadero o Falso", "True or False", "Sí o No", "0 o 1", etc (el nombre se debe a George Boole, ya que desarrolló un sistema de reglas que le permitían expresar, manipular y simplificar problemas lógicos y filosóficos cuyos argumentos admiten dos estados (verdadero o falso) por procedimientos matemáticos)
+- Cadenas: Son secuencias de caracteres Unicode, por ejemplo, una palabra, una frase o un documento HTML, etc.
+- Listas: Son secuencias de valores ordenados guardados en un mismo contenedor.
+- Tuplas: Son secuencias de valores ordenados inmutables guardados en un mismo contenedor.
+- Conjuntos: Son “contenedores” de valores sueltos sin ordenar.
+- Diccionarios: Son conjuntos sin ordenar en formato de parejas clave: valor. En los diccionarios es posible acceder a un valor por su clave.
+
+**13. ¿Qué significa el funcionamiento "cliente-servidor"?**
+La red cliente-servidor es una red de comunicaciones en la cual los clientes están conectados a un servidor, en el que se centralizan los diversos recursos y aplicaciones con que se cuenta. Y que posteriormente, los pone a disposición de los clientes cada vez que estos son solicitados.
 
 **14. ¿Qué relación tiene el formato CSV con Excel?**
 Excel es una aplicación para visualizar datos tabulados, y el formato CSV muestra los datos separados por comas, de tal manera que se visualizan como una tabla simple con filas y columnas (característica propia de excel), por lo que se complementan a la perfección. 
@@ -43,6 +60,9 @@ Para clonar un reporitorio git habría que entrar en el repositorio de GitHub y 
 3. git push main origin.
 Tras seguir estos pasos, la terminal te pedirá el nombre de usuario y la contraseña (token).
 
+
+**38. ¿Qué hay que hacer para ver el valor de la variable de entorno de shell "PATH" con el comando "echo"?**
+Para conocer el valor de la variable PATH se debe de escribir en la terminal: echo $PATH
 
 **45. Pon un ejemplo de uso de "wildcards"**
 A la hora de listar, copiar, mover y otras operaciones se pueden usar las wildcards o comodines. Las máscaras wildcard utilizan unos y ceros binarios para filtrar direcciones IP individuales o grupos de direcciones IP para permitir o denegar el acceso a los recursos. 
