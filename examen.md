@@ -133,8 +133,10 @@ La definción es la misma que las anteriores. La diferencia es que la faceta tem
 *Tab Separated Values* o valores separados por tabuladores. Los csv son herederos de los tsv
 
 **100. ¿Quién es Philip Meyer?**
-Philip Meyer (27 de octubre de 1930) comenzó su actividad periodística en The Miami Herald (1958-62). Periodó en el que bautizó al periodismo de datos como "periodismo de precisión", ya que el uso de métodos de análisis de las ciencias sociales unido a software estadístico y ordenadores para construir una historia periodística lo definen como periodismo de precisión (1969). 
+Philip Meyer (27 de octubre de 1930 -  ) es considerado el padre del periodismo de precesión o periodismo de datos.
+Los orígenes del “periodismo de precisión” pueden encontrarse en los Estados Unidos, a partir de la investigación del periodista Philip Meyer, del Miami Herald, en la cual reveló por qué los seguros escolares tenían un costo tan elevado para los norteamericanos. La razón por la cual se lo considera el padre del periodismo de precisión a Meyer es que cruzó una serie de datos que nadie había tenido en mente, para llegar a la conclusión de que las compañías de seguros financiaban la campaña presidencial de los candidatos estadounidenses.
+- Periodismo de datos como "periodismo de precisión", ya que el uso de métodos de análisis de las ciencias sociales unido a software estadístico y ordenadores para construir una historia periodística lo definen como periodismo de precisión (1969). 
 
 **101. ¿Quién fue Florence Nightingale?**
-Florence Nightingale (1820 -1910)fue una enfermera, escritoria y estadística, considerada pionera de la enfermería moderna, creando el primer modelo conceptual de enfermería.
+Florence Nightingale (1820 -1910)fue una enfermera, escritoria y estadística, considerada pionera de la enfermería moderna, creando el primer modelo conceptual de enfermería. También podemos considerarla como una de las primeras en ejercer el periodismo de datos gracias a las infografías que realizó a mano, como la de la mortalidad de la armada británica entre 1855 y 1866. 
 
