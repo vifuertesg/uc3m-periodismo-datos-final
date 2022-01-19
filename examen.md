@@ -81,9 +81,28 @@ Eligiría date o datetime, yyyy-mm-dd, ya que es la forma más estándar, sencil
 **38. ¿Qué hay que hacer para ver el valor de la variable de entorno de shell "PATH" con el comando "echo"?**
 Para conocer el valor de la variable PATH se debe de escribir en la terminal: echo $PATH
 
+**40. ¿Cómo creamos un directorio? ¿Y dos directorios? Razona tu respuesta**
+Un directorio es un contenedor virtual en el que se almacenan una agrupación de archivos informáticos y otros subdirectorios. El indicador -p le dice al comando mkdir que cree el directorio principal primero si no existe ya . 
+- Para más de uno al mismo nivel solo tenemos que separarlos por espacios 
+mkdir uno dos tres cuatro
+- O podemos crearlos anidados unos dentro de otros de la siguiente forma con el parámetro -p 
+mkdir -p uno/dos/tres/cuatro/
+
+**42. ¿En qué se diferencian las rutas absolutas de las relativas? Pon ejemplos de ambas.**
+En una ruta absoluta se representa la ruta completa del recurso. Dicho de otra forma, se parte desde el directorio raíz hasta llegar al recurso. En cambio, en las rutas relativas se representa sólo una parte de la ruta. Esto es posible porque en las rutas relativas se tiene en cuenta el directorio actual de trabajo.
+Imaginemos que estamos en Linux y que nuestro directorio de trabajo actual es /home/zeokat, si queremos acceder al archivo localizado en /home/zeokat/vozidea/file.txt podemos hacerlo de dos formas:
+- Usando la ruta absoluta: /home/zeokat/vozidea/file.txt
+- Usando la ruta relativa: vozidea/file.txt
+
+**43. Qué son las entidades HTML y cómo se representan. Por un ejemplo**
+Las entidades HTML son un conjunto de caracteres o string que empiezan por un ampersand & y terminan con un ; punto y coma. Por ejemplo, el carácter á se escribe &aacute;; el carácter é se escribe &eacute;, etc.
+
 **45. Pon un ejemplo de uso de "wildcards"**
 A la hora de listar, copiar, mover y otras operaciones se pueden usar las wildcards o comodines. Las máscaras wildcard utilizan unos y ceros binarios para filtrar direcciones IP individuales o grupos de direcciones IP para permitir o denegar el acceso a los recursos. 
 Por ejemplo, si tengo una carpeta en mi archivo de nombre data y dentro de ella tengo archivos csv, json y xls, todos en la misma carpeta. Y quiero organizar estos archivos según su tipo, crearía unas carpetas que se llamarán csv, json y xls dentro de data. Me situaría en el directorio data con el comando cd: cd ~/Escritorio/data. Crearía las carpetas con mkdir: mkdir csv json xls. Movería los archivos con mv: mv *.json json/, y luego con los otros dos tipos de archivos.
+
+**46. ¿Qué función tiene la almohadilla en Markdown y en un programa de la shell? Razona tu respuesta.**
+En Markdown la almohadilla sirve para crear títulos y subtítulos. se pone delante del texto, separada por un espacio en blanco. Para crear subtítulos y, por lo tanto, en letra más pequeña, se insertan más almohadillas. De esta manera, se pueden crear hasta seis niveles de títulos, como en HTML. Sin embargo, en un programa de la Shell, cualquier palabra que empiece por una almohadilla (#). La palabra y todos los caracteres que le siguen, hasta el siguiente carácter de nueva línea, se pasan por alto.
 
 **52. ¿Cómo ves todos los dialectos de la shell disponibles?**
 Usando el comando cat (que permite ver contenido), de tal forma que escribo desde la terminal: cat /etc/shells
@@ -101,3 +120,16 @@ Utilizando **nano** o cualquier otro editor de texto cambiamos algo, guardamos, 
 **55. Explica los pasos para clonar en tu ordenador un repositorio de Github.**
 Voy a la carpeta de mi elección con el comando cd y escribo git clone seguido de la dirección de nuestro repositorio git en github (el que queremos clonar). 
 Si no es la primera vez que hacemos esto, simplemente tendría que ponerme dentro de la carpeta y actualizar con git pull.
+
+**61. Describe los datos que estamos utilizando en el proyecto TRESCA. Qué tipo de archivo y qué tipo de datos.**
+El archivo feliz.csv proviene de los datos recopilados por TRESCA para explorar las tendencias de Twitter durante un periodo de la pandemia del COVID19. El nombre responde a que de todo ese bruto de datos recopilados se han seleccionado los mensajes que contuvieran la expresión "feliz". (aunque esto tiene truco, lo recordamos en la siguiente sesión). Se recopila a través de la API de Twitter.
+Conviene señalar que Twitter devuelve por "tendencias" tanto los "hashtags" más usados (es decir, aquellas expresiones que comienzan por una almohadilla #, como por ejemplo #FelizNavidad) como las expresiones que detecta que se usan más aunque no estén marcadas por lxs usuarixs como hashtag (como por ejemplo Feliz Navidad. Hay dos campos de fecha. Un campo del término de la tendencia y otro de la consulta de la tendencia. En cuanto al archivo, se trata de un archivo csv (valores separados por comas).
+
+**64. Qué es una Faceta de texto**
+Las facetas o facets se utilizan para filtrar el contenido, para explorar, ver o encontrar valores erróneos o que se salgan de la norma, mostrar distintas caras de los datos. De esta forma, la faceta de texto nos serviría para darle a los datos de la columna que hayamos seleccionado el valor de texto (OpenRefine interpretaría esos datos como texto)
+
+**65. Qué es una faceta numérica**
+La definción es la misma que la anterior. La diferencia es que la faceta numérica nos serviría para darle a los datos de la columna que hayamos seleccionado un valor númerico (OpenRefine interpretaría esos datos como números).
+
+**66. Qué es una faceta temporal**
+La definción es la misma que las anteriores. La diferencia es que la faceta temporal nos serviría para darle a los datos de la columna que hayamos seleccionado un valor "temporal" (OpenRefine interpretaría esos datos como fechas).
