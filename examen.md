@@ -53,6 +53,21 @@ Hay varios tipos de formatos:
 2. JSON: Significa o JavaScript Object Notation. Utilizan la sintaxis de JS, permiten más complejidad de CSV, pero tambien son más difíciles de leer.
 3. XML: más complejo que los otros y significa eXtensible Markup Language
 
+**20. ¿Qué es nano?**
+Nano es un editor de texto minimalista de la línea de comandos, que además tiene otras características que lo hacen útil como modificar archivos de configuración en la terminal, crear lanzadores, etc.
+
+**21. ¿Qué es Bootstrap?**
+Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web.
+
+**23. ¿Qué son git y Github?**
+Github es la suma de git, el software, y hub, el espacio montado por GitHub.
+*Git* se utiliza en proyectos de software. Es un programa para el trabajo colaborativo y distribuido. Lo crea Linus Torvalds, el mismo creador del kernel Linux para el desarrollo del kernel. Entre sus funciones,  permite ramas de los proyectos que luego pueden integrarse, permite volver a momentos concretos de los proyectos y permite más de un servidor. *Github* en cambio, es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza para la creación de código fuente de programas de ordenador. El software que opera Git fue escrito en Ruby.
+
+**24. ¿Cuál es la estructura de las sentencias/instrucciones en la línea de comandos?**
+- Palabra reservada o instrucción: el la palabra que indica que comando se va a ejecutar. Ejemplo, nano, ls
+- Opción: en algunos comandos se introducen unos caracteres que suelen ir seguidos de - para indicar alguna opción en concreto de la instrucción. Ejemplo, -l
+- Ruta: en la mayoría de comandos hay que indicar el archivo sobre el que se va a ejecutar la instrucción.
+
 **31. Si quisieras clonar un repositorio git, ¿qué pasos tendrías que dar? ¿Cómo comprobarías que ha funcionado?**
 Para clonar un reporitorio git habría que entrar en el repositorio de GitHub y seleccionar en un botón verde la opción de "Clone". Esto generará un código que deberémos utilizar en la terminal. Para conectarlos deberemos hacer: git clone + el código creado. Esto servirá para conectar terminal y repositorio. Una vez que queramos abrir nuestro repositorio en la terminal debemos hacer cd + nombre del repositorio y, a partir de ese momento, todo lo que hagamos en Cygwin se conectará a GitHub. Por ejemplo, si has creado un texto en nano y quieres que aparezca en tu repositorio deberás hacer lo siguiente:
 1. git add "nombredelarchivo"
@@ -60,6 +75,8 @@ Para clonar un reporitorio git habría que entrar en el repositorio de GitHub y 
 3. git push main origin.
 Tras seguir estos pasos, la terminal te pedirá el nombre de usuario y la contraseña (token).
 
+**34. ¿Que tipo de dato de fecha elegirías para tus archivos? Razona tu respuesta.**
+Eligiría date o datetime, yyyy-mm-dd, ya que es la forma más estándar, sencilla y completa que puedo usar para indicar la fecha en unos datos. 
 
 **38. ¿Qué hay que hacer para ver el valor de la variable de entorno de shell "PATH" con el comando "echo"?**
 Para conocer el valor de la variable PATH se debe de escribir en la terminal: echo $PATH
